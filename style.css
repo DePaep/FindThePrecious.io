@@ -1,0 +1,332 @@
+@font-face {
+ font-family: 'partybusiness';
+ src: url("nancy-lorenz_party-business/partybusiness.ttf");
+}
+@font-face {
+ font-family: 'pete-klassen';
+ src: url("pete-klassen_aniron/anicb___.ttf");
+}
+
+body {
+    font-family: 'partybusiness';
+    background-image: url("integration_maquette_finale/bg_light.png");
+}
+
+p {
+  font-family: 'partybusiness';
+  font-size: 10px;
+}
+#lorem {
+  font-size: 25px;
+  text-align: justify;
+}
+#mordorArmy {
+  font-size: 25px;
+  text-align: justify;
+}
+
+
+h3 {
+  font-size: 40px;
+}
+
+#carousel1 h5, p{
+  margin-bottom: 12vw;
+  font-size: 50px;
+}
+#carousel2 h5, p{
+  margin-bottom: 12vw;
+  font-size: 50px;
+}
+#carousel3 h5, p{
+  margin-bottom: 12vw;
+  font-size: 50px;
+}
+ul {
+  font-size: 50px;
+  padding: 0;
+}
+
+.pWanted {
+    font-size: 35px;
+}
+ul li {
+
+  list-style-type: none;
+}
+
+a:hover {
+  color: gray;
+}
+.section img{
+  border-radius: 5px;
+}
+
+.navbar {
+  background-color: #F36900;
+  font-size: 14px;
+}
+.pills h3 {
+  font-size: 20px;
+  font-family: 'pete-klassen';
+}
+.pills a {
+  font-family: 'pete-klassen';
+  font-size: 15px;
+  color: black;
+}
+.pills a:hover{
+  font-family: 'pete-klassen';
+  font-size: 15px;
+  color: #F36900;
+}
+
+
+.title-hover-orange {
+  display: none;
+}
+
+.pWanted:hover .title-hover-orange {
+  display: block;
+}
+
+
+.nav-item {
+  font-size: 20px;
+  margin-left: 10px;
+  color: #fff;
+}
+
+.nav-item:hover {
+  border-bottom: 4px solid;
+}
+
+
+.carousel-caption {
+  font-size: 30px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+}
+
+
+
+.wanted {
+  position: relative;
+  margin: 10px 10px 0 10px;
+  border-radius: 5px;
+}
+
+.wanted img {
+    width: 300px;
+    height: 450px;
+    opacity: 0.5;
+}
+
+.nWanted {
+  position: absolute;
+  margin: 0;
+  font-weight: bold;
+  text-align: center;
+  font-size: 25px;
+}
+
+.coins {
+  left: 50px;
+  top: 25px;
+  width: 200px;
+  font-size: 35px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  position: absolute;
+}
+
+.nWanted {
+  bottom: 150px;
+  width: 100%;
+  font-size: 30px;
+  color: #fff;
+}
+
+.total-coins{
+  color: #F36900;
+}
+
+
+.wanted:hover p.coins {
+       display: none;
+   }
+
+.wanted:hover p.nWanted {
+  bottom: 50px;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.wanted .legolas {
+  text-decoration: line-through;
+}
+
+.wanted img:hover {
+  opacity: 1;
+}
+
+
+.dead {
+  position: absolute;
+  color: #F36900;
+  font-size: 30px;
+  margin: 0;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
+  left: 99.135px;
+  top: 40px;
+}
+
+.fellow-photos figure figcaption {
+  max-width: 300px;
+  background-color: #000;
+  font-size: 25px;
+  margin: 0 10px 10px 10px;
+  padding: 10px;
+}
+
+.fellow-photos figure {
+  border: 3px #000 solid;
+  background-color: #000;
+}
+
+.get-my-reward {
+  background-color: #000;
+}
+
+.button-contact {
+  color: #ff8000;
+  background-color: #fff;
+  margin-bottom: 10px;
+  transform: skew(-30deg, 0deg);
+}
+
+.border-reward {
+  display: block;
+  background-color: #F36900;
+  height: 3px;
+  width: 50%;
+  transform: skew(-30deg, 0deg);
+
+}
+
+.profiles {
+  text-decoration: underline;
+}
+
+.media-body h3 {
+  color: #F36900;
+}
+.wny {
+  color: #F36900;
+  margin-left: 12vw;
+  font-size: 25px;
+ font-family:'pete-klassen';
+}
+.btn {
+ width: 400px;
+ margin-left: 6vw;
+ font-size: 20px;
+ font-style: bold;
+ font-family:'pete-klassen';
+}
+
+.media img {
+  margin-right: 20px;
+ width: 100%;
+}
+
+.card {
+  border-bottom: 5px solid #F36900;
+}
+.card-header {
+  font-size: 20px;
+  background-color: #F36900;
+  color: #fff;
+}
+
+.card-title {
+  font-size: 30px;
+  color: gray;
+}
+
+.about-the-ring {
+  background-color: #000;
+}
+
+.about-the-ring h3 {
+  color: #fff;
+}
+
+.gollum {
+  font-size: 15px;
+  color: gray;
+}
+
+thead {
+  font-weight: bold;
+  font-size: 20px;
+  border-bottom: #000 5px solid;
+}
+
+tbody {
+  color: gray;
+}
+
+
+.army {
+  width: 300px;
+  height: 200px;
+}
+
+.we-need-you {
+  width: 250px;
+  height: 200px;
+}
+
+.map {
+  max-height: 250px;
+}
+
+.join-mordor {
+  background-color: #000;
+}
+
+.join-mordor h3 {
+  color: #fff;
+  margin: 30px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.table td, .table th {
+  font-size: 20px;
+  border-top: none;
+}
+
+footer {
+  background-color: #F36900;
+}
+
+footer li {
+  margin: 10px;
+  font-size: 30px;
+}
+#logo2 {
+  width: 90%;
+}
+.list-footer li a {
+  color: #fff;
+  text-decoration: none;
+}
